@@ -25,6 +25,10 @@
   color: #666666;
 }
 
+.maxWidthML {
+  max-width: 113px;
+}
+
 .cardetailProduct {
   background-color: #EEEEEf;
 }

@@ -12,9 +12,9 @@ export const AppRouter = () => {
         <Router>
             <div>                                
                 <Switch>
-                    <Route exact path="/items" component={Items}/>
-                    <Route exact path="/items/:id" component={ItemDetail}/>
-                    <Route exact path="/" component={SearchBox}/>
+                    <Route exact path="/items" component={Items}/> {/* Ruta por la cual se visualizará el listado de productos consultados segun una palabra */}
+                    <Route exact path="/items/:id" component={ItemDetail}/> {/* Ruta para visualizar el detalle de un producto segun Id */}
+                    <Route exact path="/" component={SearchBox}/> {/* Vista inicial en donde solo muestra la caja de busqueda */}
                     <Redirect to="/" />
                 </Switch>
             </div>
