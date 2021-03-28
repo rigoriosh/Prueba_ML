@@ -39,7 +39,7 @@ export const CardDetailProduct = ({history}) => {
                 </div>                
             </div>
             <h4 className="fz_5_ml mb_1_ml">Descripción del producto</h4>
-            <p className="card-text"><small className="text-muted fz_6_ml mb_1_m">{item?.description}</small></p>
+            <p className="card-text"><small className="text-muted p_cdp_ml">{item?.description}</small></p>
         </div>        
     )
 }
