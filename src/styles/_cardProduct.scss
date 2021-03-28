@@ -1,0 +1,31 @@
+$color1:#333333;
+$color2:#666666;
+$color4:#EEEEEf;
+$sizeImg: 180px;
+.cardProduct{
+    background-color: $color4;
+    margin-top: 42px;
+}
+
+.img_1_ml{
+    width: $sizeImg;
+    height: $sizeImg;
+}
+
+.price_cp{
+    margin-bottom: 32px;
+    color: $color1;
+    font-size: 24px;
+}
+
+.p_cp{
+    border: none;
+    font-size: 18px;
+    color: $color1;
+}
+
+.small_cp{
+    font-size: 12px;
+    color: $color2;
+
+}

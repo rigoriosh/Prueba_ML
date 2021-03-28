@@ -1,0 +1,124 @@
+@import "cardProduct";
+@import "cardDetailProduct";
+
+$color1:#333333;
+$color2:#666666;
+$color3:#FFE600;
+$color4:#EEEEEf;
+
+
+body{
+    background-color: $color4;
+}
+
+.claseSearch{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.icon_Search{
+    text-align: center;
+    padding-right: 0px;
+}
+
+.col_search{
+    padding-right: 60px;
+}
+
+.input_search{
+    border: none;
+    font-size: 18px;
+    color: $color1;
+}
+
+.c_1_ml{
+    color: $color1;
+}
+.c_2_ml{
+    color: $color2;
+}
+
+
+.bgc_ml{
+    background-color: $color4;
+}
+
+.fz_2_ml{
+    font-size: 12px;
+}
+.fz_3_ml{
+    font-size: 14px;
+}
+.fz_6_ml{
+    font-size: 16px;
+}
+.fz_1_ml{
+    font-size: 24px;
+}
+.fz_5_ml{
+    font-size: 28px;
+}
+.fz_4_ml{
+    font-size: 46px;
+}
+.pb_ml{
+    padding-bottom: 16px;
+}
+
+
+
+
+.mt_1_ml{
+    margin-top: 32px;
+}
+
+.mt_2_ml{
+    margin-top: 16px;
+}
+
+.breadcrumb{
+    color: $color2;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+.nav-logo1 {
+    background-image: url(/src/Assets/Logo_ML.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 36px;
+    position: fixed;
+    
+}
+
+.barra{
+    background-color: $color3;
+}
+
+.nav-logo {
+    background-image: url(/src/Assets/Logo_ML.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 54px;
+    /* overflow: hidden; */
+    text-indent: -999px;
+    top: 10px;
+    /* position: absolute; */
+    left: 10px;
+    /* outline: 0; */
+}
+
+
+.nav-search {
+    /* position: absolute; */
+    left: 59px;
+    top: 0;
+    right: 45px;
+    height: 50px;
+    padding: 8px 0;
+}
