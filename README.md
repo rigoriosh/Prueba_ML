@@ -1,4 +1,4 @@
-# Prueba_ML-ForntEnd
+# Prueba_ML-FrontEnd
 
 
 Desarrollo en React de la parte front de la prueba.
